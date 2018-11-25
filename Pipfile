@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyopenjtalk = {git = "https://github.com/r9y9/pyopenjtalk"}
+hihobot-synthesis = {git = "https://github.com/Hiroshiba/hihobot-synthesis"}
+fire = "*"
+hihobot = {git = "https://github.com/Hiroshiba/hihobot"}
+tornado-instant-webapi = {git = "https://github.com/Hiroshiba/tornado_instant_webapi"}
+tornado-cors = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
