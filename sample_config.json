@@ -1,0 +1,16 @@
+{
+  "answerer": {
+    "model_path": "/path/to/hihobot-model/model.npz",
+    "model_config": "/path/to/hihobot-model/config.json",
+    "char_path": "/path/to/hihobot-model/dataset_char_wo_mastodon.json",
+    "doc2vec_model_path": "/path/to/hihobot-model/novel2vec.model",
+    "max_length": 50,
+    "sampling_maximum": true,
+    "gpu": null
+  },
+  "synthesiser": {
+    "config_path": "/path/to/hihobot-synthesis-model/config.json",
+    "duration_model_path": "/path/to/hihobot-synthesis-model/model_duration",
+    "acoustic_model_path": "/path/to/hihobot-synthesis-model/model_acoustic"
+  }
+}
